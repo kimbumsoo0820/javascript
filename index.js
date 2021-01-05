@@ -1,12 +1,14 @@
-//String
-const what = "kbsss"
-console.log(what);
-
-//boolean
-const wat = false;
-console.log(wat);
-
-//float
-
-const waat = 55.55;
-console.log(waat);
+const kbsInfo = {
+    name: "Kimbumsoo",
+    age: "25",
+    gender: "male",
+    handsome: true,
+    favMovies: ["Along the gods", "LOTR"],
+    favFood: [
+        {
+            name: "Kimchi",
+            fatty: false
+        }
+    ]
+}
+console.log(kbsInfo);
