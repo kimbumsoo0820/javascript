@@ -1,5 +1,12 @@
-function sayHello() {
-    console.log('Hello!');
+function sayHello(name, age) {
+    return `Hello ${name} you are ${age} years old`;
 }
 
-sayHello();
+const gg = sayHello("Kbs", 14);
+
+console.log(gg);
+
+
+const calculator = {
+
+}
