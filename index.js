@@ -18,3 +18,15 @@ function init() {
 }
 init();
 
+
+function handleOffline() {
+    console.log("lalalal");
+
+}
+
+function handleOnline() {
+    console.log("online")
+}
+
+window.addEventListener("offline", handleOffline);
+window.addEventListener("online", handleOnline);
