@@ -1,8 +1,5 @@
-const title = document.querySelector("#title");
-
-function handleResize(event) {
-    console.log(event);
-
+if ("10" === 10) {
+    console.log('hi');
+} else {
+    console.log('ho');
 }
-
-window.addEventListener("resize", handleResize);
