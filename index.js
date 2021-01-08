@@ -1,18 +1,8 @@
+const title = document.querySelector("#title");
 
-const calculator = {
+function handleResize(event) {
+    console.log(event);
 
-    plus: function (a, b) {
-        return a + b;
-    },
-
-    min: function (a, b) {
-        return a - b;
-    }
 }
 
-const plus = calculator.plus(5, 5);
-
-console.log(plus);
-
-const min = calculator.min(10, 5);
-console.log(min);
+window.addEventListener("resize", handleResize);
